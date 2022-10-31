@@ -8,7 +8,6 @@ public class Demo1 {
 		System.out.println("contents of sb1 : "+sb1+" memory of sb1 : "+System.identityHashCode(sb1));
 		sb1.append(" hey").append(123).append(12.333).append(true);
 		System.out.println("contents of sb1 : "+sb1+" memory of sb1 : "+System.identityHashCode(sb1));
-		
 		sb1.delete(0, 2);
 		System.out.println(sb1);
 		sb1.reverse();

@@ -19,6 +19,20 @@ public class Bus implements Comparable<Bus> {
 		this.rating = rating;
 	}
 
+	@Override
+	public int hashCode() {
+		final int prime = 31;
+		int result = 1;
+		long temp;
+		temp = Double.doubleToLongBits(cost);
+		result = prime * result + (int) (temp ^ (temp >>> 32));
+		result = prime * result + id;
+		result = prime * result + ((providerName == null) ? 0 : providerName.hashCode());
+		result = prime * result + Float.floatToIntBits(rating);
+		return result;
+	}
+
+
 	public int getId() {
 		return id;
 	}

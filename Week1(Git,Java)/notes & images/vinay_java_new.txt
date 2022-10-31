@@ -1,3 +1,4 @@
+
 JAVA
 --------
 - team of 4 members (James Gosling)
@@ -66,7 +67,7 @@ JVM
 ------------
 -Java Virtual Machine. It provides virtualization, it is the core heart of Java which is responsible to run Java apps using interpreter.
 -JVM does the handshake with the Operationg system and creates the virtual environment which is required for the java apps to run smoothly.
--It divides the meemory given by the operating system and utilizes it effectivly for managing the classes amnd objects in Java run time.
+-It divides the memory given by the operating system and utilizes it effectivly for managing the classes amnd objects in Java run time.
 - 2 popular memory is what we get to see here, STACK memory which is used as execution area and HEAP memory which is used as storage area. 
 
 

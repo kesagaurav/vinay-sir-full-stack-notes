@@ -9,6 +9,7 @@ public class VarArgs {
 		System.out.println(sum(ar));
 		System.out.println(sum(122,1,2,4,1));
 		System.out.println(sum(66));
+		System.out.println(sum(66,100));
 		demo(100,"Rk","kr","rkr");
 
 	}
